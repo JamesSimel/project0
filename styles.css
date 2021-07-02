@@ -1,0 +1,49 @@
+/* landind page styles*/
+
+html , body {
+  height: 100%;
+  width: 100%;
+  background-image:url("images/cover1.jpg");
+  background-position: center;
+  background-repeat: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#main {
+  display: flex;
+  justify-content: center;
+}
+header {
+  justify-items: right;
+}
+h1 {
+  top: 150px;
+  color: white;
+  padding-top: 50px;
+
+}
+#space {
+  height: 50px;
+}
+
+#bg {
+  justify-items: center;
+}
+p{
+  color: white;
+}
+button {
+  border-color: rgba(2, 4, 6, 0.5);
+  border-radius: 300px;
+  background-color: orange;
+  padding: 15px 10px 15px 10px;
+  font-weight: 700;
+}
+button:hover {
+  background-color: green;
+  transform: scale(1.0);
+}
+
+/* --HOME PAGE STYLES --*/ 
